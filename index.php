@@ -197,7 +197,7 @@
             <div class="row">
                 <div class="col-lg-6" style="min-height: 500px;">
                     <div class="position-relative h-100">
-                        <img class="position-absolute w-100 h-100" src="img/about.jpg" style="object-fit: cover;">
+                        <img class="position-absolute w-100 h-100" src="img/about.png" style="object-fit: cover;">
                     </div>
                 </div>
                 <div class="col-lg-6 pt-5 pb-lg-5">
@@ -206,11 +206,11 @@
                         <h1 class="mb-3">MR.MAHAPHAN CHANTAKHUN</h1>
                         <p>
                             <?php
-                            $teaching = "รายวิชาที่สอน<br>
+                            $teaching = "<p>รายวิชาที่สอน<br>
                             ————————————<br>
                             ว21103   เทคโนโลยีและวิทยาการคำนวณ 1 <br> 
                             ว23103   เทคโนโลยีและวิทยาการคำนวณ 3 <br>
-                            ว20206  การออกแบบและเทคโนโลยี <br> ";
+                            ว20206  การออกแบบและเทคโนโลยี <br> </p>";
                                        
                            
                              $address = "ที่อยู่ <br>
@@ -231,7 +231,7 @@
                                 <img class="img-fluid" src="img/about-2.jpg" alt="">
                             </div>
                         </div>
-                        <a href="" class="btn btn-primary mt-1">Book Now</a>
+                        <a href="contact.php" class="btn btn-primary mt-1">Contact Now</a>
                     </div>
                 </div>
             </div>
