@@ -52,7 +52,7 @@
                         <a class="text-primary px-3" href="">
                             <i class="fab fa-instagram"></i>
                         </a>
-                        <a class="text-primary pl-3" href="">
+                        <a class="text-primary pl-3" href="https://youtu.be/r-7Mcddoqdc">
                             <i class="fab fa-youtube"></i>
                         </a>
                     </div>
