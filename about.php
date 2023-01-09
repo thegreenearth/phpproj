@@ -246,7 +246,7 @@
                             <i class="fa fa-2x fa-globe text-white"></i>
                         </div>
                         <div class="d-flex flex-column">
-                            <h5 class="">Worldwide Coverage</h5>
+                            <h5 class="">ยอดเขาที่เคยพิชิต</h5>
                             <p class="m-0">Magna sit magna dolor duo dolor labore rebum amet elitr est diam sea</p>
                         </div>
                     </div>
