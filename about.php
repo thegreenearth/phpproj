@@ -224,8 +224,8 @@
                             <i class="fa fa-2x fa-money-check-alt text-white"></i>
                         </div>
                         <div class="d-flex flex-column">
-                            <h5 class="">Competitive Pricing</h5>
-                            <p class="m-0">Magna sit magna dolor duo dolor labore rebum amet elitr est diam sea</p>
+                            <h5 class="">กิจกรรมที่สนใจเป็นพิเศษ</h5>
+                            <p class="m-0">การปีนเขา</p>
                         </div>
                     </div>
                 </div>
@@ -235,8 +235,8 @@
                             <i class="fa fa-2x fa-award text-white"></i>
                         </div>
                         <div class="d-flex flex-column">
-                            <h5 class="">Best Services</h5>
-                            <p class="m-0">Magna sit magna dolor duo dolor labore rebum amet elitr est diam sea</p>
+                            <h5 class="">เป้าหมายสูงสุดในชีวิต</h5>
+                            <p class="m-0">ยอดเขาเอเวอเรสต์</p>
                         </div>
                     </div>
                 </div>
