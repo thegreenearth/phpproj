@@ -124,10 +124,10 @@
                             <div class="col-md-3">
                                 <div class="mb-3 mb-md-0">
                                     <select class="custom-select px-4" style="height: 47px;">
-                                        <option selected>Destination</option>
-                                        <option value="1">Destination 1</option>
-                                        <option value="2">Destination 1</option>
-                                        <option value="3">Destination 1</option>
+                                    <option selected>Duration1</option>
+                                        <option value="1">Duration2</option>
+                                        <option value="2">Duration3</option>
+                                        <option value="3">Duration4</option>
                                     </select>
                                 </div>
                             </div>
@@ -148,10 +148,10 @@
                             <div class="col-md-3">
                                 <div class="mb-3 mb-md-0">
                                     <select class="custom-select px-4" style="height: 47px;">
-                                        <option selected>Duration</option>
-                                        <option value="1">Duration 1</option>
-                                        <option value="2">Duration 1</option>
-                                        <option value="3">Duration 1</option>
+                                        <option selected>Duration1</option>
+                                        <option value="1">Duration2</option>
+                                        <option value="2">Duration3</option>
+                                        <option value="3">Duration4</option>
                                     </select>
                                 </div>
                             </div>
@@ -160,12 +160,23 @@
                     <div class="col-md-2">
                         <button class="btn btn-primary btn-block" type="submit" style="height: 47px; margin-top: -2px;">Submit</button>
                     </div>
+                    
                 </div>
             </div>
         </div>
     </div>
     <!-- Booking End -->
+    <div>
+    <?php
+        $t = date("D");
 
+        if ($t < "20") {
+            echo "Have a good day!";
+        } else {
+            echo "Have a good night!";
+        }
+    ?>
+    </div>
 
     <!-- About Start -->
     <div class="container-fluid py-5">
