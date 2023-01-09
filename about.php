@@ -247,7 +247,11 @@
                         </div>
                         <div class="d-flex flex-column">
                             <h5 class="">ยอดเขาที่เคยพิชิต</h5>
-                            <p class="m-0">Magna sit magna dolor duo dolor labore rebum amet elitr est diam sea</p>
+                            <p class="m-0">- ยอดเขาคิลิมันจาโร ประเทศแทนซาเนีย</p>
+                            <p class="m-0">- ยอดเขาเดนาลี รัฐอลาสก้า</p>
+                            <p class="m-0">- ยอดเขาเอลบรุส ประเทศรัสเซีย</p>
+                            <p class="m-0">- ยอดเขา Hvannadalshnúkur ประเทศไอซ์แลนด์</p>
+                            <p class="m-0">- ยอดเขามัทเทอร์ฮอร์น ประเทศสวิตเซอร์แลนด์</p>
                         </div>
                     </div>
                 </div>
