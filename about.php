@@ -124,10 +124,10 @@
                             <div class="col-md-3">
                                 <div class="mb-3 mb-md-0">
                                     <select class="custom-select px-4" style="height: 47px;">
-                                        <option selected>Destination</option>
-                                        <option value="1">Destination 1</option>
-                                        <option value="2">Destination 1</option>
-                                        <option value="3">Destination 1</option>
+                                    <option selected>Duration1</option>
+                                        <option value="1">Duration2</option>
+                                        <option value="2">Duration3</option>
+                                        <option value="3">Duration4</option>
                                     </select>
                                 </div>
                             </div>
@@ -148,10 +148,10 @@
                             <div class="col-md-3">
                                 <div class="mb-3 mb-md-0">
                                     <select class="custom-select px-4" style="height: 47px;">
-                                        <option selected>Duration</option>
-                                        <option value="1">Duration 1</option>
-                                        <option value="2">Duration 1</option>
-                                        <option value="3">Duration 1</option>
+                                        <option selected>Duration1</option>
+                                        <option value="1">Duration2</option>
+                                        <option value="2">Duration3</option>
+                                        <option value="3">Duration4</option>
                                     </select>
                                 </div>
                             </div>
@@ -160,12 +160,23 @@
                     <div class="col-md-2">
                         <button class="btn btn-primary btn-block" type="submit" style="height: 47px; margin-top: -2px;">Submit</button>
                     </div>
+                    
                 </div>
             </div>
         </div>
     </div>
     <!-- Booking End -->
+    <div>
+    <?php
+        $t = date("D");
 
+        if ($t < "20") {
+            echo "Have a good day!";
+        } else {
+            echo "Have a good night!";
+        }
+    ?>
+    </div>
 
     <!-- About Start -->
     <div class="container-fluid py-5">
@@ -214,8 +225,6 @@
         </div>
     </div>
     <!-- About End -->
-
-
     <!-- Feature Start -->
     <div class="container-fluid pb-5">
         <div class="container pb-5">
@@ -226,8 +235,8 @@
                             <i class="fa fa-2x fa-money-check-alt text-white"></i>
                         </div>
                         <div class="d-flex flex-column">
-                            <h5 class="">Competitive Pricing</h5>
-                            <p class="m-0">Magna sit magna dolor duo dolor labore rebum amet elitr est diam sea</p>
+                            <h5 class="">กิจกรรมที่สนใจเป็นพิเศษ</h5>
+                            <p class="m-0">การปีนเขา</p>
                         </div>
                     </div>
                 </div>
@@ -237,8 +246,8 @@
                             <i class="fa fa-2x fa-award text-white"></i>
                         </div>
                         <div class="d-flex flex-column">
-                            <h5 class="">Best Services</h5>
-                            <p class="m-0">Magna sit magna dolor duo dolor labore rebum amet elitr est diam sea</p>
+                            <h5 class="">เป้าหมายสูงสุดในชีวิต</h5>
+                            <p class="m-0">ยอดเขาเอเวอเรสต์</p>
                         </div>
                     </div>
                 </div>
@@ -248,8 +257,12 @@
                             <i class="fa fa-2x fa-globe text-white"></i>
                         </div>
                         <div class="d-flex flex-column">
-                            <h5 class="">Worldwide Coverage</h5>
-                            <p class="m-0">Magna sit magna dolor duo dolor labore rebum amet elitr est diam sea</p>
+                            <h5 class="">ยอดเขาที่เคยพิชิต</h5>
+                            <p class="m-0">- ยอดเขาคิลิมันจาโร ประเทศแทนซาเนีย</p>
+                            <p class="m-0">- ยอดเขาเดนาลี รัฐอลาสก้า</p>
+                            <p class="m-0">- ยอดเขาเอลบรุส ประเทศรัสเซีย</p>
+                            <p class="m-0">- ยอดเขา Hvannadalshnúkur ประเทศไอซ์แลนด์</p>
+                            <p class="m-0">- ยอดเขามัทเทอร์ฮอร์น ประเทศสวิตเซอร์แลนด์</p>
                         </div>
                     </div>
                 </div>
