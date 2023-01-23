@@ -18,11 +18,16 @@
     </style>
 <body>
 <div>
-<form action="WhileLoop.php" method="post">
+<form action="loop.php" method="post">
 กรุณากรอกตัวเลข: <input type="text" name="num">
 <input type="submit">
 </form>
-<h1>สูตรคูณแม่ <?php echo $_POST["num"]; ?>
+<h1>สูตรคูณแม่ :
+    <?php 
+        $num = $_POST["num"]; 
+        settype($num,'int');
+        echo $num;
+    ?>
 <?php
     $count = 1;
     $num = $_POST["num"];
