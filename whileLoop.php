@@ -3,10 +3,16 @@
     <style>
         div {
             align-self: start;
-            width: 30%;
+            width: 50%;
             border: 5px solid green;
             padding: 5px;
             margin: 10px;
+        }
+        .divIn{
+            width: 45%;
+            border: 3px solid red;
+            padding: 2px;
+            margin: 5px;
         }
     </style>
 <body>
@@ -22,14 +28,12 @@
     settype($num,'int');
     while($count <= 12){
         $sum = $num * $count;
-        echo "<div>";
+        echo "<div class='divIn'>";
         echo $num. "*". $count. " = ". $sum;
         $count++;
         echo "<br>";
         echo "</div>";
     }
-    
-
 ?>
 </div>
 </body>
