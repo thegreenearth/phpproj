@@ -113,22 +113,22 @@ div {
         $result = $num1 / $num2;
         return $result;
     }
-        
-        
-        echo $mode."<br>";
-        if($mode=="Add"){
-            add($num1, $num2);
-        }elseif($mode=="Subtract"){
-            $result = Subtract($num1, $num2);
-            echo $num1. " - " .$num2. " = ". $result;
-        }elseif($mode=="Multiply"){
-            Multiply();
-        }elseif($mode=="Division"){
-            $result = Division();
-            echo $num1. " / " .$num2. " = ". $result;
-        }else{
-            echo "Can't Process.";
-        }
+              
+    echo $mode."<br>";
+
+    if($mode=="Add"){
+        add($num1, $num2);
+    }elseif($mode=="Subtract"){
+        $result = Subtract($num1, $num2);
+        echo $num1. " - " .$num2. " = ". $result;
+    }elseif($mode=="Multiply"){
+        Multiply();
+    }elseif($mode=="Division"){
+        $result = Division();
+        echo $num1. " / " .$num2. " = ". $result;
+    }else{
+        echo "Can't Process.";
+    }
         
 
     ?>
