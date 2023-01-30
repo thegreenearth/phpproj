@@ -75,14 +75,19 @@ div {
 </select>
 <input type="submit">
 </form>
-<h1>การประมวลผลด้วยโหมด:
+
+
     <?php 
     isset( $_POST['mode'] ) ? $mode = $_POST['mode'] : $mode = "";
     isset( $_POST['num1'] ) ? $num1 = $_POST['num1'] : $num1 = "";
     isset( $_POST['num2'] ) ? $num2 = $_POST['num2'] : $num2 = "";
     settype($num1,'int');
     settype($num2,'int');
- 
+    echo "<h3>";
+    echo "<br>Number1 = ".$num1."<br>";
+    echo "Number2 = ".$num2."<br>";
+    echo "<h1>การประมวลผลด้วยโหมด: ";
+    echo "</h3>";
     //Add Function
     function add($num1, $num2){
         $sum = $num1 + $num2;
