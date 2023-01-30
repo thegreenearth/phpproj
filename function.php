@@ -88,7 +88,7 @@ div {
     echo "Number2 = ".$num2."<br>";
     echo "</h3>";
     echo "<h1>การประมวลผลด้วยโหมด: ";
-    
+    echo $mode."<br>";
     //Add Function
     function add($num1, $num2){
         $sum = $num1 + $num2;
@@ -119,18 +119,16 @@ div {
         $result = $num1 / $num2;
         return $result;
     }
-              
-    echo $mode."<br>";
-
+//Mode Checking             
     if($mode=="Add"){
-        add($num1, $num2);
+        add($num1, $num2); // Call Function
     }elseif($mode=="Subtract"){
-        $result = Subtract($num1, $num2);
+        $result = Subtract($num1, $num2); // Call Function
         echo $num1. " - " .$num2. " = ". $result;
     }elseif($mode=="Multiply"){
-        Multiply();
+        Multiply(); // Call Function
     }elseif($mode=="Division"){
-        $result = Division();
+        $result = Division(); // Call Function
         echo $num1. " / " .$num2. " = ". $result;
     }else{
         echo "Can't Process.";
