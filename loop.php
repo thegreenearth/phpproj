@@ -1,9 +1,12 @@
 <!DOCTYPE HTML>
 <html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
     <style>
         div {
             align-self: start;
-            width: 30%;
+            width: 100%;
             border: 5px solid green;
             padding-left: 20px;
             padding-top: 20px;
@@ -13,7 +16,7 @@
             width: 30%;
             border: 2px solid red;
             padding-left: 30px;
-            margin: 5px;
+            margin: auto;
         }
     </style>
 <body>

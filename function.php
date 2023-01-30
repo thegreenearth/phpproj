@@ -39,12 +39,6 @@ h2{
 <input type="submit">
 </form>
     <?php
-    if ($_SERVER["REQUEST_METHOD"] == "POST") {
-        // collect value of input field
-        $num1 = $_POST['num1'];
-        if (empty($num1) || empty($num2)) {
-          echo "<br>***Number 1 or Number 2 is empty";
-        } 
     isset( $_POST['mode'] ) ? $mode = $_POST['mode'] : $mode = "";
     isset( $_POST['num1'] ) ? $num1 = $_POST['num1'] : $num1 = "";
     isset( $_POST['num2'] ) ? $num2 = $_POST['num2'] : $num2 = "";
@@ -101,7 +95,7 @@ echo "<h1>";
         echo "Can't Process.";
     }
 echo "</h1>";   
-} 
+
     ?>
 </div>
 
