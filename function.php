@@ -86,8 +86,9 @@ div {
     echo "<h3>";
     echo "<br>Number1 = ".$num1."<br>";
     echo "Number2 = ".$num2."<br>";
-    echo "<h1>การประมวลผลด้วยโหมด: ";
     echo "</h3>";
+    echo "<h1>การประมวลผลด้วยโหมด: ";
+    
     //Add Function
     function add($num1, $num2){
         $sum = $num1 + $num2;
