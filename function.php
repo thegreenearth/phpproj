@@ -6,7 +6,7 @@ div {
             align-self: start;
             width: 30%;
             border: 5px solid green;
-            padding-left: 20px;
+            padding-left: 50px;
             padding-top: 20px;
             margin: auto;
     }
@@ -24,7 +24,7 @@ h2{
 <body>
 <div>
 <h1>User Define Function.</h1>
-
+<hr>
 <form action="function.php" method="post">
 กรุณากรอกตัวเลข: <br>
 ระบุตัวเลขตัวที่ 1: <input type="text" name="num1"><br>
