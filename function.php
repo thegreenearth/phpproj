@@ -1,8 +1,3 @@
-<!DOCTYPE HTML>
-<html>
-    <style>
-        
-    </style>
 <!DOCTYPE html>
 <html>
 <head>
@@ -21,46 +16,14 @@ div {
             padding-left: 30px;
             margin: 5px;
     }
-.button {
-  border: none;
-  color: white;
-  padding: 16px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  transition-duration: 0.4s;
-  cursor: pointer;
+h2{
+    font-family: "Times New Roman", Times, serif;
 }
-
-.button1 {
-  background-color: white; 
-  color: black; 
-  border: 2px solid #4CAF50;
-}
-
-.button1:hover {
-  background-color: #4CAF50;
-  color: white;
-}
-
-.button2 {
-  background-color: white; 
-  color: black; 
-  border: 2px solid #008CBA;
-}
-
-.button2:hover {
-  background-color: #008CBA;
-  color: white;
-}
-
 </style>
 </head>
 <body>
 <div>
-<h1>Dese User Define Function.</h1>
+<h1>User Define Function.</h1>
 
 <form action="function.php" method="post">
 กรุณากรอกตัวเลข: <br>
@@ -75,8 +38,6 @@ div {
 </select>
 <input type="submit">
 </form>
-
-
     <?php 
     isset( $_POST['mode'] ) ? $mode = $_POST['mode'] : $mode = "";
     isset( $_POST['num1'] ) ? $num1 = $_POST['num1'] : $num1 = "";
@@ -87,8 +48,7 @@ div {
     echo "<br>Number1 = ".$num1."<br>";
     echo "Number2 = ".$num2."<br>";
     echo "</h3>";
-    echo "<h1>การประมวลผลด้วยโหมด: ";
-    echo $mode."<br>";
+    echo "<h1>ประมวลผลด้วยโหมด: ". $mode."</h1>";
     //Add Function
     function add($num1, $num2){
         $sum = $num1 + $num2;
@@ -119,7 +79,8 @@ div {
         $result = $num1 / $num2;
         return $result;
     }
-//Mode Checking             
+//Mode Checking
+echo "<h1>";         
     if($mode=="Add"){
         add($num1, $num2); // Call Function
     }elseif($mode=="Subtract"){
@@ -133,7 +94,7 @@ div {
     }else{
         echo "Can't Process.";
     }
-        
+echo "</h1>";   
 
     ?>
 </div>
