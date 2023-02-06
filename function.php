@@ -7,7 +7,9 @@ div {
             width: 30%;
             border: 5px solid green;
             padding-left: 50px;
+            padding-right: 50px;
             padding-top: 20px;
+            padding-bottom: 20px;
             margin: auto;
     }
 .divIn{
