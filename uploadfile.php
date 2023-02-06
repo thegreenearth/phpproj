@@ -23,7 +23,7 @@
         </style>
 <body>
     <div> 
-        <img src="upload/_MG_0352.JPG" width="100%">
+        <img src="upload/myimg.jpg" width="100%">
         <hr>
         <form action=" upload.php" method="post" enctype="multipart/form-data">
         <h2>Select image to upload:

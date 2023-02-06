@@ -22,10 +22,10 @@
             }
         </style>
 <body>
-    <div> 
-        <img src="upload/_MG_0352.JPG" width="100%">
-        <hr>
-        <?php
+<div> 
+  <img src="upload/_MG_0352.JPG" width="100%">
+  <hr>
+  <?php
 $target_dir = "upload/";
 $target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
 $uploadOk = 1;
